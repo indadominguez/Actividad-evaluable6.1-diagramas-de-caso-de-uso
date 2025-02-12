@@ -20,4 +20,5 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Crea el diagrama de uso haciendo uso de platuml, representado los actores y casos de uso que identifiques en los requisitos.
 - Describe, haciendo uso de la plantilla, al menos el caso de uso "Sacar dinero", con las interacciones que tiene entre el actor y el caso de uso.
 - Responde a las siguiente pregunta: ¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?
-![image](https://github.com/user-attachments/assets/44d4ab09-b81c-423c-becc-bc18a8bfcb33)
+![image](https://github.com/user-attachments/assets/d61f5857-8298-4356-90da-31661dce6352)
+
