@@ -164,3 +164,10 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 ---
 
 # 3. ¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?
+- Facilita la comprensión y entendimiento, para que no haya confusión a la hora de representar la información de nuestro diagrama ya que,
+identifica claramente a los actores y las relaciones entre ellos y los casos de uso del diagrama.
+
+- Si se quiere hacer un diagrama un poco más desarrollado primero se puede hacer este y luego se aplica información un poco más detallada.
+
+- Permite identificar errores cuando hacemos el diagrama, puede ser que hayamos interpretado mal el enunciado del ejercicio y cuando lo representamos,
+vemos que la información que utilizamos no está bien implementada dentro del diagrama.  
