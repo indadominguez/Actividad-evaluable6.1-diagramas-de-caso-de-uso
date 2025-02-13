@@ -155,3 +155,5 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 **Postcondiciones**:
 
 - No se realiza ninguna transacción si el límite diario es alcanzado.
+
+# 3. ¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?
