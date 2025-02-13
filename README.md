@@ -99,48 +99,59 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - El saldo de la cuenta del cliente se actualiza reflejando la transferencia realizada.
 - Flujo Alternativo (Saldo insuficiente):
 - Si el saldo es insuficiente, el Cajero muestra un mensaje de error y solicita al Cliente que ingrese una cantidad menor.
+  
+## Caso de Uso: Hacer un ingreso
+- ID: UC4
+- Actores Primarios: Cliente
+- Actores Secundarios: Cajero
+- Descripción:
+- El cliente puede hacer un ingreso de dinero en su cuenta mediante el cajero automático.
+
+**Precondiciones:**
+
+- El cliente debe haber sido validado en el sistema.
+- Flujo Básico:
+- Cliente selecciona la opción "Hacer un ingreso".
+- El Cajero solicita al Cliente que inserte los billetes.
+- Cliente inserta los billetes en la ranura correspondiente.
+- El Cajero cuenta el dinero y muestra un mensaje con el monto ingresado.
+- El Cajero actualiza el saldo de la cuenta del cliente.
+- El Cajero muestra un mensaje de confirmación.
 - 
-Caso de Uso: Hacer un ingreso
-ID: UC4
-Actores Primarios: Cliente
-Actores Secundarios: Cajero
-Descripción:
-El cliente puede hacer un ingreso de dinero en su cuenta mediante el cajero automático.
+**Postcondiciones**:
 
-Precondiciones:
-El cliente debe haber sido validado en el sistema.
-Flujo Básico:
-Cliente selecciona la opción "Hacer un ingreso".
-El Cajero solicita al Cliente que inserte los billetes.
-Cliente inserta los billetes en la ranura correspondiente.
-El Cajero cuenta el dinero y muestra un mensaje con el monto ingresado.
-El Cajero actualiza el saldo de la cuenta del cliente.
-El Cajero muestra un mensaje de confirmación.
-Postcondiciones:
-El saldo de la cuenta del cliente se actualiza reflejando el monto ingresado.
-Caso de Uso: Ver saldo insuficiente
-ID: UC5
-Actores Primarios: Cajero
-Descripción:
-Este caso de uso se activa cuando el cliente intenta realizar una operación que excede el saldo disponible en su cuenta.
+- El saldo de la cuenta del cliente se actualiza reflejando el monto ingresado.
 
-Precondiciones:
-El cliente ha solicitado una operación (como retirar dinero o transferir fondos).
-Flujo Básico:
-El Cajero verifica el saldo de la cuenta del cliente.
-Si el saldo es insuficiente, el Cajero muestra un mensaje de error y solicita al Cliente que ingrese una cantidad menor.
-Postcondiciones:
-No se realiza ninguna transacción si el saldo es insuficiente.
-Caso de Uso: Ver límite diario alcanzado
-ID: UC6
-Actores Primarios: Cajero
-Descripción:
-Este caso de uso se activa cuando el cliente intenta retirar una cantidad que excede su límite diario de retiro.
+## Caso de Uso: Ver saldo insuficiente
+- ID: UC5
+- Actores Primarios: Cajero
+- Descripción:
+- Este caso de uso se activa cuando el cliente intenta realizar una operación que excede el saldo disponible en su cuenta.
 
-Precondiciones:
-El cliente ha solicitado un retiro de dinero.
-Flujo Básico:
-El Cajero verifica si el monto solicitado excede el límite diario de retiro.
-Si el límite diario ha sido alcanzado, el Cajero muestra un mensaje de error y solicita al Cliente que ingrese una cantidad menor.
-Postcondiciones:
-No se realiza ninguna transacción si el límite diario es alcanzado.
+**Precondiciones**:
+
+- El cliente ha solicitado una operación (como retirar dinero o transferir fondos).
+- Flujo Básico:
+- El Cajero verifica el saldo de la cuenta del cliente.
+- Si el saldo es insuficiente, el Cajero muestra un mensaje de error y solicita al Cliente que ingrese una cantidad menor.
+
+**Postcondiciones**:
+
+- No se realiza ninguna transacción si el saldo es insuficiente.
+
+## Caso de Uso: Ver límite diario alcanzado
+- ID: UC6
+- Actores Primarios: Cajero
+- Descripción:
+- Este caso de uso se activa cuando el cliente intenta retirar una cantidad que excede su límite diario de retiro.
+
+**Precondiciones:**
+
+- El cliente ha solicitado un retiro de dinero.
+- Flujo Básico:
+- El Cajero verifica si el monto solicitado excede el límite diario de retiro.
+- Si el límite diario ha sido alcanzado, el Cajero muestra un mensaje de error y solicita al Cliente que ingrese una cantidad menor.
+
+**Postcondiciones**:
+
+- No se realiza ninguna transacción si el límite diario es alcanzado.
