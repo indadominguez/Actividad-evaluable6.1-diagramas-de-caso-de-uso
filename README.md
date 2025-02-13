@@ -36,7 +36,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - El cliente debe autenticarse en el sistema para acceder a cualquier otra funcionalidad del cajero automático.
 
-**Precondiciones:**
+**Requisitos:**
 
 - El cliente debe tener una tarjeta y un PIN válido.
 - Flujo Básico:
@@ -59,7 +59,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - El cliente puede retirar dinero de su cuenta, sujeto a que tenga suficiente saldo y no haya superado su límite diario de retiro.
 
-**Precondiciones:**
+**Requisitos:**
 
 - El cliente debe haber sido validado en el sistema.
 - Flujo Básico:
@@ -88,7 +88,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - El cliente puede transferir dinero a otra cuenta, asegurándose de que tenga suficiente saldo.
 
-**Precondiciones:**
+**Requisitos:**
 
 - El cliente debe haber sido validado en el sistema.
 - Flujo Básico:
@@ -112,7 +112,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - El cliente puede hacer un ingreso de dinero en su cuenta mediante el cajero automático.
 
-**Precondiciones:**
+**Requisitos:**
 
 - El cliente debe haber sido validado en el sistema.
 - Flujo Básico:
@@ -133,7 +133,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - Este caso de uso se activa cuando el cliente intenta realizar una operación que excede el saldo disponible en su cuenta.
 
-**Precondiciones**:
+**Requisitos**:
 
 - El cliente ha solicitado una operación (como retirar dinero o transferir fondos).
 - Flujo Básico:
@@ -150,7 +150,7 @@ Representa mediante una diagrama de casos de uso, los distintos escenarios, acto
 - Descripción:
   - Este caso de uso se activa cuando el cliente intenta retirar una cantidad que excede su límite diario de retiro.
 
-**Precondiciones:**
+**Requisitos:**
 
 - El cliente ha solicitado un retiro de dinero.
 - Flujo Básico:
